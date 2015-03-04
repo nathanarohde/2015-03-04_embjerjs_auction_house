@@ -1,4 +1,4 @@
-auctionHouse.Auction.Route.extend({
+auctionHouse.AuctionRoute = Ember.Route.extend({
   model: function() {
     return stockAuction;
   }

@@ -1,3 +1,3 @@
-auctionHouse.AuctionController = Ember.ObjectController.extend({
-itemController = 'item'
+auctionHouse.LotController = Ember.ObjectController.extend({
+itemController:'item'
 });
