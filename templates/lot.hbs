@@ -1,8 +1,9 @@
-<h5>Thing</h5>
 {{#each controller}}
   <ul>
     <li>
-      {{title}}{{owner}}{{info}}{{img}}
+      <h5>{{title}}</h5>
+      {{owner}}{{info}}
+      <img width='200px' {{bind-attr src=img}}>
     </li>
   </ul>
 {{/each}}
