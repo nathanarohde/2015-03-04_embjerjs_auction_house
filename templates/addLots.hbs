@@ -1,0 +1,16 @@
+<h4> Create New Lot </h4>
+<form>
+  <p> Title </p>
+  {{input type='text' value=newLotTitle}}
+  <p> Owner </p>
+  {{input type='text' value=newLotOwner}}
+  <button type='submit' {{action 'addLot'}}>Add new lot.</button>
+</form>
+
+{{#each controller}}
+  <ul>
+    <li>
+      {{title}}{{owner}}
+    </li>
+  </ul>
+{{/each}}
