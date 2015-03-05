@@ -1,3 +1,3 @@
 auctionHouse.AuctionController = Ember.ArrayController.extend({
-  itemController:'lot'
+  itemController: 'lots'
 });

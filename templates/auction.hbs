@@ -1,6 +1,10 @@
 <h2> Exclusive Fine Art </h2>
 {{#each controller}}
   <ul>
-    <li>{{title}}{{owner}}</li>
+    <li>{{title}}{{owner}}
+      {{outlet 'lot'}}
+    </li>
   </ul>
+
+  {{render 'items' items}}
 {{/each}}
