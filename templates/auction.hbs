@@ -2,9 +2,7 @@
 {{#each controller}}
   <ul>
     <li>{{title}}{{owner}}
-      {{outlet 'lot'}}
+      {{render 'lot' items}}
     </li>
   </ul>
-
-  {{render 'items' items}}
 {{/each}}
