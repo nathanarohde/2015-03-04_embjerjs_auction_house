@@ -3,7 +3,7 @@ auctionHouse.AddLotsController = Ember.ArrayController.extend({
 
   actions:{
     addLot: function() {
-      stockAuction.addObject({title:this.newLotTitle, owner:this.newLotOwner, id:stockAuction.length + 1})
+      stockAuction.addObject({title:this.newLotTitle, owner:this.newLotOwner, id:stockAuction.length + 1, items:[ ]})
     }
   }
 });
