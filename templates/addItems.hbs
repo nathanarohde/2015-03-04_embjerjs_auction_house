@@ -1,0 +1,12 @@
+<h4>Add Item Content</h4>
+<form>
+  <p> Title </p>
+  {{input type='text' value=newItemTitle}}
+  <p> Artist </p>
+  {{input type='text' value=newItemArtist}}
+  <p> Info </p>
+  {{input type='text' value=newItemInfo}}
+  <p> Image </p>
+  {{input type='file' value=newItemImg}}
+  <button type='submit' {{action 'addItem'}}>Add new item.</button>
+</form>

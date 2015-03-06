@@ -8,22 +8,27 @@
     <script src='libs/ember-template-compiler-1.10.0.js'></script>
     <script src='libs/ember-1.10.0.debug.js'></script>
     <script src='libs/ember-handlebars-loader-0.0.2.js'></script>
+    <script src="libs/ember-data-1.0.0-beta.15.js"></script>
+    <script src="libs/localstorage-adapter-0.5.1.js"></script>
     <script src='auctionHouse.js'></script>
     <script src='router.js'></script>
     <script src='store.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src='controllers/auction.js'></script>
     <script src='controllers/addLots.js'></script>
+    <script src='controllers/addItems.js'></script>
     <script src='controllers/lots.js'></script>
     <script src='controllers/lot.js'></script>
     <script src='controllers/item.js'></script>
     <script src='routes/auction.js'></script>
     <script src='routes/addLots.js'></script>
+    <script src='routes/addItems.js'></script>
+    <script src='models/addLots.js'></script>
 
 
     <script>
       EmberHandlebarsLoader.loadTemplates([
-          "application",'home','auction','lot','addLots'
+          "application",'home','auction','lot','addLots', 'addItems'
       ]);
     </script>
   </head>
